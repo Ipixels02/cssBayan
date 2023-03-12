@@ -28,7 +28,6 @@
 .meme {
     margin: 5px 0;
     border: 1px solid #01b5b5;
-
 }
 
 .meme-title {
@@ -41,6 +40,17 @@
 .meme-title:hover {
     background-color: #f4ddb2;
     color: #000000;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-icon {
+    background-color: white;
+    width: 16px;
+    height: 16px;
 }
 
 .meme-input {
